@@ -1,0 +1,78 @@
+
+#taskbar {
+    -fx-background-color: #0D69DE ;
+    -fx-spacing: 50px;
+    -fx-alignment: center;
+    -fx-padding: 50px, 50px,10px,50px;
+}
+
+.button{
+    -fx-font-size: 100%;
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-text-fill: black;
+    -fx-padding: 30px 60px;
+    -fx-border-color: white;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+}
+
+.button:hover {
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+#bodyDecrypt, #bodyEncrypt
+{
+    -fx-border-color:  #0D69DE;
+    -fx-border-width: 2px;
+}
+#encryptModeButton, #decryptModeButton {
+    -fx-pref-width:165px;
+    -fx-pref-height:75px;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 17px;
+    -fx-text-fill:  #00008B;
+    -fx-font-weight: bold;
+}
+#openAFilePlaintextButton, #openAFileCButton,#openFileKeyPrivateButton
+{
+    -fx-padding: 5px 10px;
+    -fx-pref-width:165px;
+    -fx-pref-height:75px;
+    -fx-font-size: 15px;
+    -fx-background-color: #D3D3D3;
+    -fx-border-color: #D3D3D3;
+}
+#copyButton
+{
+    -fx-pref-size: 30px;
+    -fx-pref-size: 30px;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 15px;
+    -fx-background-color: #D3D3D3;
+    -fx-border-color: #D3D3D3;
+}
+
+#startDecryptButton, #startEncryptButton
+{
+    -fx-pref-width:165px;
+    -fx-pref-height:75px;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 15px;
+    -fx-background-color: #D3D3D3;
+    -fx-border-color: #D3D3D3;
+    -fx-font-weight: bold;
+}
+#bodyEncrypt, #bodyDecrypt
+{
+    -fx-spacing: 60px;
+    -fx-alignment: center;
+}
+#encText, #decText
+{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-font-posture: regular;
+}
+
